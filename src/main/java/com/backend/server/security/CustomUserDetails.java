@@ -29,7 +29,7 @@ public class CustomUserDetails implements UserDetails {
 
     @Override
     public String getPassword() {
-        return member.getPassword();
+          return member.getPassword();
     }
 
     @Override
@@ -39,8 +39,13 @@ public class CustomUserDetails implements UserDetails {
 
     @Override
     public boolean isAccountNonExpired() {
-        return true;
+          return true;
     }
+
+
+
+
+
 
     @Override
     public boolean isAccountNonLocked() {

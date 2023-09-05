@@ -1,1 +1,0 @@
-# managerb-server

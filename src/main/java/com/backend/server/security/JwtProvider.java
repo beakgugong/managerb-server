@@ -79,8 +79,7 @@ public class JwtProvider {
     }
 
     // Authorization Header를 통해 인증을 한다.
-    public String resolveToken(HttpServletRequest request) {
-        return request.getHeader("Authorization");
+    public String resolveToken(HttpServletRequest request) {return request.getHeader("Authorization");
     }
 
     // 토큰 검증
